@@ -1,12 +1,10 @@
 {
-  "bindings": [
-    {
-      "name": "newRateMessage",
-      "type": "queueTrigger",
-      "direction": "in",
-      "queueName": "latest-rate",
-      "connection": "fsharpexchangerate_STORAGE"
-    }
-  ],
-  "disabled": false
+    "bindings": [{
+        "name": "newRateMessage",
+        "type": "queueTrigger",
+        "direction": "in",
+        "queueName": "latest-rate",
+        "connection": "fsharpexchangerate_STORAGE"
+    }],
+    "disabled": true
 }
